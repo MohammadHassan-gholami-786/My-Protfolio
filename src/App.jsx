@@ -1,6 +1,6 @@
 import "./index.css"; 
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Projects from "./pages/projects";
@@ -16,11 +16,11 @@ export default function App() {
           <div className="navbar-content">
             <span className="developer-logo">M.HASSAN<span className="logo-dot">.DEV</span></span>
             <div className="nav-links">
-              <Link to="/" className="nav-item">Home</Link>
-              <Link to="/about" className="nav-item">About</Link>
-              <Link to="/projects" className="nav-item">Projects</Link>
-              <Link to="/skills" className="nav-item">Skills</Link>
-              <Link to="/contact" className="nav-item">Contact</Link>
+              <NavLink to="/" className="nav-item">Home</NavLink>
+              <NavLink to="/about" className="nav-item">About</NavLink>
+              <NavLink to="/projects" className="nav-item">Projects</NavLink>
+              <NavLink to="/skills" className="nav-item">Skills</NavLink>
+              <NavLink to="/contact" className="nav-item">Contact</NavLink>
             </div>
           </div>
         </nav>
