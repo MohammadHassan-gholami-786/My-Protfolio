@@ -28,7 +28,15 @@ export default function Projects() {
       image: "/BrArchitects.png",
       status: "✓ Css and Html Verified",
       link: "https://br-architect-psi.vercel.app/",
-    }
+    },
+     {
+      id: 4,
+      title: "Style-Farda",
+      description: "A profeesional site for tailors to control there orders better.",
+      image: "/style-Farda.png",
+      status: "✓By React. react-router-dom,tailwindcss,react-icons,e t c ...",
+      link: "https://style-farda.vercel.app/",
+    },
   ];
 
   
