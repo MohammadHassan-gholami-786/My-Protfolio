@@ -33,7 +33,7 @@ export default function Projects() {
       id: 4,
       title: "Style-Farda",
       description: "A profeesional site for tailors to control there orders better.",
-      image: "/stylefarda.png",
+      image: "/public/stylefarda.png",
       status: "✓By React. react-router-dom,tailwindcss,react-icons,e t c ...",
       link: "https://style-farda.vercel.app/",
     },
