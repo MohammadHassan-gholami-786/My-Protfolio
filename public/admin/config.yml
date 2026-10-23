@@ -1,0 +1,50 @@
+
+backend:
+  name: turbo-github
+  turbo_site_id: a9ee0de7-5be4-4a32-a1fc-d8329b467e8e
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    files:
+      - name: "project_list"
+        label: "Project List"
+        file: "content/projects.json"
+        format: "json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "string" }
+              - { label: "Technologies", name: "status", widget: "string" }
+              - { label: "Project Link", name: "link", widget: "string" }
+
+  - name: "skills"
+    label: "Skills"
+    files:
+      - name: "skills_list"
+        label: "Skills List"
+        file: "content/skills.json"
+        format: "json"
+        fields:
+          - label: "Core Tech Skills"
+            name: "coreTechSkills"
+            widget: "list"
+            field:
+              label: "Skill"
+              name: "skill"
+              widget: "string"
+          - label: "Abilities"
+            name: "abilities"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }

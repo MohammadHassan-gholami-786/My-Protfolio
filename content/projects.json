@@ -1,0 +1,37 @@
+
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Interior Design",
+      "description": "We are an interior design service focused on what's best for your home and for you.",
+      "image": "/InteriorDesign.png",
+      "status": "HTML and CSS",
+      "link": "https://sharefi-umber.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Secondhand Marketplace",
+      "description": "A website for buying and selling secondhand products.",
+      "image": "/SecondhandMarketplace.png",
+      "status": "JavaScript, CSS, HTML and React",
+      "link": "https://secondhand-marketplace-three.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "Br-Architects",
+      "description": "A professional architectural design and planning showcase platform for modern building structures.",
+      "image": "/BrArchitects.png",
+      "status": "HTML and CSS",
+      "link": "https://br-architect-psi.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "Style-Farda",
+      "description": "A professional website for tailors to manage their orders.",
+      "image": "/stylefarda.png",
+      "status": "React and React Router DOM",
+      "link": "https://style-farda.vercel.app/"
+    }
+  ]
+}
