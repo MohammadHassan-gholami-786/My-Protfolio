@@ -1,4 +1,3 @@
-
 {
   "coreTechSkills": [
     "HTML",
@@ -6,7 +5,8 @@
     "JavaScript",
     "React",
     "React Router DOM",
-    "Tailwind CSS"
+    "Tailwind CSS",
+    "bbc news"
   ],
   "abilities": [
     {
@@ -32,6 +32,10 @@
     {
       "title": "Reusable Components",
       "description": "I can build reusable React components to keep website code organized."
+    },
+    {
+      "title": "goood reporter",
+      "description": "report every noe very professional"
     }
   ]
 }
