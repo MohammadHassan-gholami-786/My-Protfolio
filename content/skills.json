@@ -1,3 +1,4 @@
+
 {
   "coreTechSkills": [
     "HTML",
@@ -34,8 +35,12 @@
       "description": "I can build reusable React components to keep website code organized."
     },
     {
-      "title": "goood reporter",
-      "description": "report every noe very professional"
+      "title": "Good Reporter",
+      "description": "I can report news professionally."
+    },
+    {
+      "title": "API Integration",
+      "description": "I can connect frontend applications to APIs and display data."
     }
   ]
 }
